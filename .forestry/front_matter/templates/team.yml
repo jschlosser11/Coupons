@@ -1,4 +1,44 @@
 ---
 label: team
 hide_body: true
-fields: []
+fields:
+- name: image
+  type: file
+  config:
+    maxSize: '2'
+  label: image
+  description: coupon image goes here
+- name: icon
+  type: file
+  config:
+    maxSize: '1'
+  label: icon
+  description: coupon icon
+- name: name
+  type: text
+  config:
+    required: true
+  label: name
+  description: 'coupon name '
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: description
+  description: coupon description
+- name: google_map_link
+  type: text
+  config:
+    required: false
+  label: google map link
+  description: coupon google map link
+- name: website_link
+  type: text
+  config:
+    required: false
+  label: website link
+  description: coupon website link
