@@ -42,3 +42,5 @@ fields:
     required: false
   label: website link
   description: coupon website link
+pages:
+- data/coupons/Things to do in Cocoa Beach & Cape Canaveral.md
