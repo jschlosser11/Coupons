@@ -2,6 +2,12 @@
 label: coupons
 hide_body: true
 fields:
+- name: name
+  type: text
+  config:
+    required: true
+  label: name
+  description: 'coupon name '
 - name: image
   type: file
   config:
@@ -14,12 +20,6 @@ fields:
     maxSize: '1'
   label: icon
   description: coupon icon
-- name: name
-  type: text
-  config:
-    required: true
-  label: name
-  description: 'coupon name '
 - name: description
   type: textarea
   default: ''
