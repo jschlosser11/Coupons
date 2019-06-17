@@ -1,4 +1,4 @@
-baseURL = "https://5d082193672b450c8af1c71a--trusting-swirles-a17cfd.netlify.com/"
+baseURL = "https://trusting-swirles-a17cfd.netlify.com/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "meghna-hugo-master"
