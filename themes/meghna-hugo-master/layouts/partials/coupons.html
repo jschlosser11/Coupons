@@ -9,9 +9,11 @@
                 </div>
             </div>
 
-            {{ $headlessbundle := site.GetPage "/coupons" }}
+            {{ $headlessbundle := .Site.GetPage "/coupons" }}
             {{ with $headlessbundle }}
             {{ $coupon_map := $headlessbundle.Resources.ByType "page" }}
+
+            {{ len $coupon_map }}
 
             {{ range $coupon_map }}
 

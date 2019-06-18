@@ -1174,7 +1174,7 @@ a:hover {
 .team-member {
   background-color: yellow;
   margin-bottom: 10px;
-  width: 190px;
+  width: 100%;
   height: 148px;
   border-radius: 10px;
 }
