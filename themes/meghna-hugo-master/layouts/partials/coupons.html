@@ -13,8 +13,6 @@
             {{ with $headlessbundle }}
             {{ $coupon_map := $headlessbundle.Resources.ByType "page" }}
 
-            {{ len $coupon_map }}
-
             {{ range $coupon_map }}
 
             <div class="col-lg-3 col-md-6 col-12 wow fadeInDown" data-wow-duration="500ms">
