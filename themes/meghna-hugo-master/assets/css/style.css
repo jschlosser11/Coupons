@@ -32,9 +32,19 @@ h6 {
   font-family: "Quattrocento Sans", sans-serif;
   color: #afbac4;
 }
+h4 {
+font-size: 12px;
+color: black;
+font-weight: bold;
+ padding-top: 28px;
+text-align: center;
+
+}
 
 p {
   font-family: "Quattrocento Sans", sans-serif;
+  font-size: 12px;
+  color: black;
 }
 
 [scroll-behavior=smooth] {
@@ -1162,8 +1172,19 @@ a:hover {
   Our Team
 ==================================================================*/
 .team-member {
-  background-color: #292F36;
+  background-color: yellow;
   margin-bottom: 10px;
+  width: 190px;
+  height: 148px;
+  border-radius: 10px;
+}
+.team-member-name {
+
+}
+
+.team-member-description {
+  text-align: center;
+
 }
 
 .team-member:hover .mask {
@@ -1177,6 +1198,7 @@ a:hover {
 .member-photo {
   overflow: hidden;
   position: relative;
+  display: inline-flex;
 }
 
 @media (max-width: 768px) {
@@ -1244,6 +1266,10 @@ a:hover {
 
 .member-meta h4 {
   margin: 0 0 5px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
 }
 
 .member-meta span {

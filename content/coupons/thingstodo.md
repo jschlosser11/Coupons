@@ -1,0 +1,8 @@
+---
+image: "/uploads/Things-To-Do-In-Cocoa-Beach-Cape-Canaveral-1024x384.png"
+name: THINGS TO DO IN COCOA BEACH & CAPE CANAVERAL
+description: SAVE OVER $25 ON SAILING, ENTERTAINMENT, DINING & GAMING PACKAGE
+google_map_link: https://www.google.com/maps/place/Victory+Casino+Cruises/@28.4077261,-80.6029825,17z/data=!3m1!4b1!4m5!3m4!1s0x88e0a6459f0b5a3d:0x58d36eecf90a08!8m2!3d28.4077261!4d-80.6007938?hl=en&authuser=0
+icon: "/uploads/Victory-Casino-Cruises-Space-Coast-Coupons-80x80.png"
+website_link: https://victorycasinocruises.com/
+---
