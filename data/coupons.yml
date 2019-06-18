@@ -3,12 +3,6 @@ enable: true
 heading: Our
 headingSpan: Coupons TEST
 teamMember:
-- image: ''
-  name: ''
-  description: ''
-  google_map_link: ''
-  icon: ''
-  website_link: ''
 - image: "/uploads/Things-To-Do-In-Cocoa-Beach-Cape-Canaveral-1024x384.png"
   name: THINGS TO DO IN COCOA BEACH & CAPE CANAVERAL
   description: SAVE OVER $25 ON SAILING, ENTERTAINMENT, DINING & GAMING PACKAGE
